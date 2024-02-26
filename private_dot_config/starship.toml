@@ -1,0 +1,8 @@
+[directory]
+style = "bold blue"
+truncate_to_repo = false
+truncation_length = 0
+
+[shell]
+disabled = false
+fish_indicator = "󰈺" # or 🐟?

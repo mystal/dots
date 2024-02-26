@@ -1,0 +1,8 @@
+[cursor]
+blink_timeout = 10
+
+[cursor.style]
+blinking = "On"
+
+[window]
+opacity = 0.9

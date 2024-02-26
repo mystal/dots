@@ -1,0 +1,7 @@
+[user]
+	name = Gabriel Martinez
+	email = reitaka@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	pager = delta
