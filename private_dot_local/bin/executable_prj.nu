@@ -25,7 +25,7 @@ def main [] {
     "~/dev"
   } | path expand
 
-  let git_dirs = ^fd -t d -H --no-ignore-vcs '^.git$' $projects_dir
+  let git_dirs = ^fd -t d -H --no-ignore-vcs '^\.(git|jj)$' $projects_dir
     | lines
     | each {|e| $e | path relative-to $projects_dir | path dirname }
     | sort
