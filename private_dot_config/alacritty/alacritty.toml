@@ -2,7 +2,18 @@
 blink_timeout = 10
 
 [cursor.style]
+shape = "Beam"
 blinking = "On"
+
+[font]
+size = 12.5
+
+[font.normal]
+family = "DM Mono"
 
 [window]
 opacity = 0.9
+
+[debug]
+render_timer = false
+prefer_egl = true
